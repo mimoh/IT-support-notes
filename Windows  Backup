@@ -1,0 +1,88 @@
+#Windows Backup Procedure
+## Purpose
+This document explains the backup procedures used to back up Windows and ensure recovery in case of failure.
+
+## Types of Backups
+
+### 1. Full Backup
+Copies all files and folders.
+
+### 2. Incremental Backup
+Backs up only changed files since the last backup.
+
+### 3. Differential Backup
+Backs up all changes since the last full backup.
+
+---
+
+## Backup Schedule
+
+| Backup Type | Frequency |
+|---|---|
+| Full Backup | Weekly |
+| Incremental Backup | Daily |
+
+---
+
+## Backup Storage
+
+- External HDD
+- Cloud storage
+- Network storage
+
+---
+
+#Backup Windows procedure
+1. Open Backup Settings
+2. Connect backup drive
+3. Select folders
+4. Run backup
+5. Verify successful completion
+
+---
+## Verification Steps
+
+After backup:
+- Confirm files exist
+- Test file restoration
+- Check backup logs
+
+---
+
+## Common Issues
+
+### Backup Fails
+Possible causes:
+- Low disk space
+- Drive disconnected
+- Permission issues
+
+---
+
+### Slow Backup Speed
+Possible causes:
+- Large file sizes
+- Network congestion
+- Faulty drive
+
+---
+
+## Recovery Procedure
+
+1. Open backup utility
+2. Select restore point
+3. Choose files/folders
+4. Restore to destination
+5. Verify restored files
+
+---
+
+## Best Practices
+
+- Keep multiple backup copies
+- Test backups regularly
+- Store one backup offsite
+- Encrypt sensitive backups
+- Monitor backup logs
+
+---
