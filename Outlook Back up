@@ -1,0 +1,93 @@
+#Outlook Backup Procedure
+## Purpose
+This document explains the backup procedures used to back up Outlook emails and  ensure recovery in case of failure.
+
+## Types of Backups
+
+### 1. Full Backup
+Copies all files and folders.
+
+### 2. Incremental Backup
+Backs up only changed files since the last backup.
+
+### 3. Differential Backup
+Backs up all changes since the last full backup.
+
+---
+
+## Backup Schedule
+
+| Backup Type | Frequency |
+|---|---|
+| Full Backup | Weekly |
+| Incremental Backup | Daily |
+
+---
+
+## Backup Storage
+
+- External HDD
+- Cloud storage
+- Network storage
+
+---
+
+#Backup outlook procedure
+-	Open Outlook
+- Select File > Open & Export > Import/Export.
+- Select Export to a file, and then select Next
+- Select Outlook Data File (.pst), and select Next.
+- Select the mail folder you want to back up and select Next.
+- Choose a location and name for your backup file, and then select Finish.
+- If you want to ensure no one has access to your files, enter and confirm a password, and then select OK.
+The messages that you keep in a .pst file are no different from other messages. You can forward, reply, or search 
+Through the stored messages as you do with other messages.
+
+---
+## Verification Steps
+
+After backup:
+- Confirm files exist
+- Test file restoration
+- Check backup logs
+
+---
+
+## Common Issues
+
+### Backup Fails
+Possible causes:
+- Low disk space
+- Drive disconnected
+- Permission issues
+
+---
+
+### Slow Backup Speed
+Possible causes:
+- Large file sizes
+- Network congestion
+- Faulty drive
+
+---
+
+## Recovery Procedure
+
+1. Open backup utility
+2. Select restore point
+3. Choose files/folders
+4. Restore to destination
+5. Verify restored files
+
+---
+
+## Best Practices
+
+- Keep multiple backup copies
+- Test backups regularly
+- Store one backup offsite
+- Encrypt sensitive backups
+- Monitor backup logs
+
+---
+
