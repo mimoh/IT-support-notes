@@ -1,0 +1,229 @@
+TROUBLESHOOTING MANUAL
+Troubleshooting is the process of figuring out how to solve a computer problem. Even with the most updated software and hardware, occasionally computers can malfunction.
+In order to solve a problem, you must figure out which part of the system is malfunctioning. You will need to check each component of the computer, unless it is obvious where the problem is coming from. Isolating the problem will help you solve the problem quickly. Knowing how to solve these problems with a shortcut perhaps using only a few keys on the keyboard can save time and effort.
+Backing up your important computer files to another source will ensure that if your problem cannot be corrected, you will still have a safe copy of your information.
+BASIC TROUBLESHOOTING STEPS
+•	Close open programs and windows you are not currently using. 
+•	Make sure all of your cords are connected properly. 
+•	Try to repeat the sequence of commands you performed before the problem occurred. See if this causes the same response by your computer. 
+•	Press the F1 key to access the Help window. You can search for a solution to your problem once the Help window appears. 
+•	If there is an error message, record the full message for future reference. 
+•	Restart your computer to see if it clears the problem. To restart your computer, open the start window and select the Restart button instead of the Log Off button. 
+•	If restarting the computer does not clear the problem, shut down the computer and then start it back up again. 
+•	If the issue is still not resolved, check the common technology issues below or call your system administrator. 
+
+
+
+TROUBLESHOOTING POWER SUPPLY PROBLEMS
+Typical symptoms associated with power-supply failures include the following:
+•	No indicator lights are visible, with no disk drive action and no display on the screen. Nothing works, and the system is dead.
+•	The On/Off indicator lights are visible, but there is no disk drive action and no display on the monitor screen. The system fan might or might not run.
+•	The system produces a continuous beep tone.
+CHECKING DEAD SYSTEMS
+Special consideration must be taken when a system is inoperable. In a totally inoperable system, there are no symptoms to give clues where to begin the isolation process. In addition, it is impossible to use troubleshooting software or other system aids to help isolate the problem.
+When the system exhibits no signs of life including the absence of lights the best place to start looking for the problem is at the power supply. The operation of this unit affects virtually every part of the system. Also, the absence of any lights working usually indicates that no power is being sup- plied to the system by the power supply.
+•	Check the external connections of the power supply. This is the first step in checking any electrical equipment that shows no signs of life.
+•	Confirm that the power supply cord is plugged into a functioning outlet.
+•	Verify the position of the On/Off switch.
+•	Examine the power cord for good connection at the rear of the unit.
+•	Check the setting of the 110/220 switch setting on the outside of the power supply. The normal setting for equipment used in the United States is 110.
+•	Check the power at the commercial receptacle using a voltmeter, or by plugging in a lamp (or other 110-volt device) into the outlet.
+TROUBLESHOOTING THE SYSTEM BOARD
+The microprocessor, RAM modules, ROM BIOS, and CMOS battery are typically replaceable units on the system board. If enough of the system is running to perform tests on these units, you can replace them.
+Problems with key system board components produce symptoms similar to those described for a bad power supply. Both the microprocessor and the ROM BIOS can be sources of such problems. You should check both by substitution when dead system symptoms are encountered but the power supply is good.
+
+SYSTEM BOARD SYMPTOMS
+Typical symptoms associated with system board hardware failures include the following:
+•	The On/Off indicator lights are visible and the display is visible on the monitor screen, but there is no disk drive action and no bootup occurs.
+•	The On/Off indicator lights are visible and the hard drive spins up, but the system appears dead and there is no bootup.
+•	The system locks up during normal operation.
+•	The system produces a beep code with one, two, three, five, seven, or nine beeps (BIOS dependent).
+•	The system produces a beep code of one long and three short beeps (BIOS dependent).
+•	The system does not hold the current date and time.
+•	A DMA Error message displays, indicating a DMA controller failed page register test.
+•	A CMOS Battery Low message displays, indicating failure of the CMOS battery or the CMOS checksum test.
+•	A CMOS Checksum Failure message displays, indicating that the CMOS battery is low or a CMOS checksum test failure.
+•	A 201 error code displays, indicating a RAM failure.
+•	A Parity Check error message displays, indicating a RAM error
+
+Typical symptoms associated with system board CMOS setup failures include the following:
+•	A CMOS Inoperational message displays, indicating failure of CMOS shutdown register.
+•	A CMOS Memory Size Mismatch message displays, indicating a system configuration and setup failure.
+•	A CMOS Time & Date Not Set message displays, indicating a system configuration and setup failure.
+Typical symptoms associated with system board I/O failures include the fol- lowing:
+•	The speaker doesn’t work during operation. The rest of the system works, but no sounds are produced through the speaker.
+•	The keyboard does not function after being replaced with a known-good unit.
+TROUBLESHOOTING KEYBOARD PROBLEMS
+Most of the circuitry associated with the computer’s keyboard is located on the keyboard itself. However, the keyboard interface circuitry is located on the system board. Therefore, the steps required to isolate keyboard problems are usually confined to the keyboard, its connecting cable, and the system board.
+
+KEYBOARD SYMPTOMS
+Typical symptoms associated with keyboard failures include the following:
+•	No characters appear onscreen when entered from the keyboard.
+•	Some keys work, whereas others do not work.
+•	A Keyboard Error—Keyboard Test Failure error appears.
+•	A KB/Interface Error—Keyboard Test Failure error appears.
+•	An error code of six short beeps is produced during bootup (BIOS dependent).
+•	The wrong characters are displayed.
+•	An IBM-compatible 301 error code appears.
+•	An Unplugged Keyboard error appears.
+•	A key is stuck.
+BASIC KEYBOARD CHECKS
+The keys of the keyboard can wear out over time. This might result in keys that don’t make good contact (no character is produced when the key is pressed) or that remain in contact (stick) even when pressure is removed. The stuck key produces an error message when the system detects it; how- ever, it has no way of detecting an open key.
+An unplugged keyboard, or one with a bad signal cable, also produces a key- board error message during startup. Ironically, this condition might produce a configuration error message that says “Press F1 to continue.”
+If the keyboard produces odd characters on the display, check the Windows keyboard settings in Device Manager. Device Manager is located under the System icon (found in Control Panel) in Windows 9x and Windows Me. In Windows 2000, the path is similar—Control Panel, System, Hardware tab. However, in both Windows 2000 and Windows XP, Device Manager is usually accessed through the Computer Management console. If the keyboard is not installed or is incorrect, install the correct keyboard type. Also, be certain that you have the correct language setting specified in the Keyboard Properties dialog box (found by double-clicking the Keyboard icon in Control Panel).
+
+KEYBOARD HARDWARE CHECKS
+If you suspect a keyboard hardware problem, isolate the keyboard as the definite source of the problem (a fairly easy task). Because the keyboard is external to the system unit, detachable, and inexpensive, simply exchange it with a known-good keyboard.
+If the new keyboard works correctly, remove the back cover from the faulty keyboard and check for the presence of a fuse in the +5V DC supply and check it for continuity. Neither the older five-pin DIN nor the six-pin PS/2 mini-DIN keyboards can be hot-swapped. Disconnecting or plugging in a keyboard that has this type of fuse while power is on can cause the keyboard to fail. If the fuse is present, simply replace it with a fuse of the same type and rating.
+If replacing the keyboard does not correct the problem, and no configuration or software reason is apparent, the next step is to troubleshoot the keyboard receiver section of the system board. On most system boards, this ultimately involves replacing the system board.
+
+TROUBLESHOOTING MOUSE PROBLEMS
+Most problems with mice are related either to its port connection, the mouse driver, the trackball in a trackball mouse or a trackball unit, and the operation of the mouse buttons.
+In newer systems, the mouse is typically connected to the USB port or the dedicated PS/2 mouse port on the back of the unit. In ATX systems, the key- board and mouse have been given the same six-pin mini-DIN connector and, unfortunately, they do not work interchangeably. Although plugging the mouse into the keyboard connector should not cause any physical damage, it does cause problems with getting the system to work. These connections tend to be color-coded so you can check to ensure the mouse is connected to the green connector.
+For PnP-compatible mice, installation and configuration has become a fairly routine process. Connect the mouse to the PS/2 mouse port and let the system auto detect it and install the basic Windows mouse drivers.
+However, specialty mice including USB-connected mice, wireless mice, and infrared mice along with other pointing devices might require special drivers that are supplied by the manufacturer and loaded from the disk or disc that accompanies the device. Older serial mice used one of the PC’s serial ports as their interface. These ports had to be properly configured for the serial mouse to work properly.
+When a trackball mouse is moved across the table, the trackball picks up dirt or lint, which can hinder the movement of the trackball, typically evident by the cursor periodically freezing and jumping onscreen. On most mice, you can remove the trackball from the mouse by a latching mechanism on its bottom. Twisting the latch counterclockwise enables you to remove the track- ball. Then, you can clean dirt out of the mouse.
+The other mechanical part of the mouse is its buttons. These items can wear out under normal use. When they do, the mouse should simply be replaced. However, before doing so, check the Properties of the mouse in the operating system to ensure that the button functions have not been altered. It would be a shame to throw away a perfectly good mouse because it had been set up for left-hand use in the operating system.
+
+MOUSE HARDWARE CHECKS
+The hardware check for the mouse involves isolating it from its host port. Simply replace the mouse to test its electronics. If the replacement mouse works, the original mouse is probably defective. If its electronics are not working properly, few options are available for actually servicing a mouse. It might need a cleaning, or a new trackball. However, the low cost of a typical mouse generally makes it a throwaway item if simple cleaning does not fix it.
+If the new mouse does not work either, chances are good that the mouse’s electronics are working properly. In this case, the mouse driver or the port hardware must be the cause of the problem. If the driver is correct for the mouse, the port hardware and CMOS configuration must be checked.
+The system board typically contains all of the port hardware electronics and support so it must be replaced to restore the port/mouse operation at that port. However, if the system board mouse port is defective, another option is to install a mouse that uses a different type of port (for example, use a USB mouse to replace the PS/2 mouse).
+
+MOUSE CONFIGURATION CHECKS
+When a mouse does not work in a Windows system, restart it and move into safe mode by pressing the F5 function key while the “Starting Windows” message is displayed. This starts the operating system with the most basic mouse driver available. If the mouse does not operate in safe mode, you must check the mouse hardware and the port to which the mouse is connected.
+If the mouse works in safe mode, the problem exists with the driver you are trying to use with it. It might be corrupt or it could be having a conflict with some other driver. To check the driver, consult Device Manager. If Device Manager shows a conflict with the mouse, remove the driver and allow the system’s PnP process to reinstall it.
+If the correct driver for the installed mouse is not available, you must install one from the manufacturer. This typically involves placing the manufacturer’s driver disk or disc in the appropriate drive and loading the driver using the Update Driver (requires disk from original equipment manufacturer [OEM]) option on the Device Manager Mouse Properties page. If the OEM driver fails to operate the mouse in Windows, you should contact the mouse manufacturer for an updated Windows driver.
+
+TROUBLESHOOTING PORT PROBLEMS
+Failures of the serial, parallel, and game ports tend to end with poor or no operation of the peripheral. Generally, there are only four possible causes for a problem with a device connected to an I/O port:
+•	The port is defective.
+•	The software is not configured properly for the port (that is, the resource allocation, speed, or protocol settings do not match).
+•	The connecting signal cable is bad.
+•	The attached device is not functional.
+
+PORT PROBLEMS SYMPTOMS
+Typical symptoms associated with serial, parallel, or game port failures include the following:
+•	A 199, 432, or 90x IBM-compatible error code displays on the monitor (printer port).
+•	The printer’s Online light is on but no characters are printed when print jobs are sent to the printer.
+•	An 110x IBM-compatible error code displays on the monitor (serial port error).
+•	A Device Not Found error message displays, or you have an unreliable connection.
+•	The input device does not work on the game port.
+
+TROUBLESHOOTING HARD DISK DRIVES
+Typical symptoms associated with hard disk drive failures include the following:
+•	The front panel indicator lights are visible, and the display is present on the monitor screen, but there is no disk drive action and no bootup.
+•	The computer boots up to a system disk in the A drive, but not to the hard drive, indicating that the system files on the hard disk drive (HDD) are missing or have become corrupt.
+•	The computer does not boot up when turned on.
+•	An IBM-compatible 17xx error code is produced on the display.
+•	No motor sounds are produced by the HDD while the computer is running. (In desktop units, the HDD should generally always run when power is applied to the system however, this does not apply to all desktops or portables when advanced power saving features are used.)
+•	A HDD Controller Failure message appears, indicating a failure to verify hard disk setup by system configuration file error.
+•	A C: or D: Fixed Disk Drive error message appears, indicating a hard disk CMOS setup failure.
+•	An Invalid Media Type message appears, indicating the controller can- not find a recognizable track/sector pattern on the drive.
+•	A No Boot Record Found, a Nonsystem Disk or Disk Error, or an Invalid System Disk message appears, indicating that the system boot files are not located in the root directory of the drive.
+•	The video display is active, but the HDD’s activity light remains on and no bootup occurs, indicating that the HDD’s CMOS configuration information is incorrect.
+•	An Out of Disk Space message appears, indicating that the amount of space on the disk is insufficient to carry out the desired operation.
+•	A Missing Operating System or a Hard Drive Boot Failure message appears, indicating that the disk’s MBR is missing or has become corrupt.
+•	A Current Drive No Longer Valid message appears, indicating that the HDD’s CMOS configuration information is incorrect or has become corrupt.
+
+HDD CONFIGURATION CHECKS
+While booting up the system, observe the BIOS’s HDD type information displayed on the monitor. Note the type of HDD that the BIOS recognizes as being installed in the system. Possible error messages associated with HDD configuration problems include the Drive Mismatch Error message and the Invalid Media Type message.
+Check the drive to ensure that it is properly terminated. Every drive type requires a termination block somewhere in the interface. For Integrated Drive Electronics (IDE) drives, check the Master/Slave jumper setting to ensure it is set properly for the drive’s logical position in the system. Remember that there can only be one master drive selection on each IDE channel. If both drives share an interface and are set to the same selection, neither drive should work.
+If you have more than one device attached to a single interface cable, be certain that they are of the same type (for example, all are Enhanced Integrated Drive Electronics [EIDE] devices or all are ATA100 devices). Mixing IDE device types creates a situation in which the system cannot provide the different types of control information each device needs. The drives are incompatible and you might not be able to access either device.
+If the drive is a SCSI drive, check to see that its ID has been set correctly and that the SCSI chain has been terminated correctly. Either of these errors results in the system not being able to see the drive. Check the CMOS setup utility to ensure that SCSI support has been enabled along with large SCSI drive support
+
+BASIC HDD CHECKS
+The first task is to determine how extensive the HDD problem is. Place a clean boot disk or an emergency start disk in the A drive and try to boot the system. Then execute a DIR command to access the C drive. If the system can see the contents of the drive, the boot files have been lost or corrupted, but the architecture of the disk is intact.
+Modify the DIR command with an /AH or /AS switch (that is, DIR C: /AH or DIR C: /AS) to look in the root directory for the system files and the COMMAND.COM
+file. It is common to receive a Disk Boot Failure message onscreen if this type of situation occurs.
+In Windows 9x and Windows Me systems, if the clean boot disk has a copy of the FDISK program on it, attempt to restore the drive’s MBR (including its partition information) by typing the following:
+A>FDISK /MBR
+Providing that the hard disk can be accessed with the DIR command, type and enter the following command at the DOS prompt (with the clean boot disk still in the A drive):
+SYS C: 
+This command copies the IO.SYS, MSDOS.SYS, and COMMAND.COM system files 
+from the boot disk to the hard disk drive. Turn off the system, remove the boot disk 
+from the A drive, and try to reboot the system from the hard drive.
+If the system cannot see the drive after booting from the floppy disk, an Invalid Drive message or an Invalid Drive Specification message should be returned in response to any attempt to access the drive. In Windows 9x sys- tems, use the FDISK utility to partition the drive. Next use the FORMAT /S command to make the disk bootable. Any data that was on the drive is lost in the formatting process, but it was already gone because the system could not see the drive.
+The process for checking the hard drive on a Windows NT, Windows 2000, or Windows XP computer is similar to the one for checking a Windows 9x- based system. In Windows NT and Windows 2000, the partitioning process is performed through the Disk Administrator and Disk Management utilities, respectively. These utilities perform all of the basic functions that the FDISK utility does. For instance, both utilities can be used to partition drives and both show you the basic layout of the system’s disks.
+These disk utilities can also provide advanced functions associated with enterprise (large-scale, business-oriented) computing systems. The Disk Administrator and Disk Management utilities can be used to create both traditional primary and extended partitions for MS-DOS/Windows 9x systems or for Windows NT and Windows 2000 systems. They can also be used to create volumes (partitions that involve space on multiple physical drives).
+The Windows 2000 and Windows XP Disk Management snap-in, depicted in Figure 3.10, is located under the Computer Management console. To access the Disk Management snap-in, click Start, Settings, Control Panel, Administrative Tools. Double-click the Computer Management icon, and then click the Disk Management entry. Because working with volumes is a major administrative task, you must be logged on as an administrator or as a member of a Windows 2000 Administrators group to carry out this procedure.
+
+
+OTHER COMPUTER ISSUES
+Issue: The printer is not working. 
+•	Check if the printer is turned on. If not, turn it on and try again. 
+•	Check if the printer has paper. If not, put paper in the paper tray and try printing again. 
+•	Check if the printer has a paper jam. If so, remove the paper, close the printer, and try printing again. 
+•	Ensure that all printer cables are properly connected. 
+•	Turn off the printer and turn on again. 
+•	Check to see if a new printer driver is needed. Do this by going to the manufacturer’s website to search for your printer model and checking for any updated driver. Seek assistance from your system administrator before installing any drivers. 
+
+Issue: The computer is frozen. A program is not responding. 
+•	Push the Ctrl, Alt, and Delete keys at the same time. Then, start the Task Manager, highlight the program’s name, and hit the End Task button. 
+•	Perform a hard reboot by simply pressing the on/off button to turn off the computer manually. This action should only be done as a last resort if you have an unresponsive program or critical error. This process could cause data loss or corruption. 
+•	Once the computer is responding again, run a virus check. 
+
+Issue: The keyboard is not working. 
+•	Make sure the keyboard is connected to the computer. If not, connect it to the computer. 
+•	If you are using a wireless keyboard, try changing the batteries. 
+•	If one of the keys on your keyboard gets stuck, turn the computer off and clean with a damp cloth.
+•	Use the mouse to restart the computer. 
+
+Issue: New hardware or software is working incorrectly. 
+•	Verify your computer meets the requirements of the program or utility. 
+•	Uninstall and install the program. 
+•	There could be a conflict with another installed program and you should contact your system administrator. 
+
+Issue: The mouse is not working correctly. 
+•	Check if the mouse is securely plugged into the computer. If not, plug it in completely. 
+•	Check to see if the cord has been damaged. If so, the mouse may need replacing. 
+•	If you are using a cordless mouse, try pushing the connection button on the underside of the mouse to reestablish a connection. 
+•	Clean the mouse, especially on the bottom. 
+
+
+Issue: The browser’s homepage suddenly changed. 
+•	This is a common symptom that a virus or browser hijacker may have infected the computer. 
+•	Try re-setting the home page to the default: 
+1.	In Internet Explorer: 
+•	On the Tools menu, click Internet Options. 
+•	Click the General tab. In the Address box, type the Web address you want for your home page. 
+•	Click OK. 
+2.	In Mozilla Foxfire: 
+•	Open the web site you want to set as your home page. 
+•	Click the icon to the left of the web address and drag it to the Home button. 
+•	Click Yes. 
+
+•	If the home page still reverts back to the “new” page, do an Internet search using keywords that include the name of the “new” homepage and the word “virus.” If there is a virus, this search may reveal more information on the virus and how it can be safely removed. 
+•	Run a virus scan.
+Issue: The computer is slow. 
+•	Restart your computer. 
+•	Verify that there is at least 200-500 MB of free hard drive space. To do so, select Start and click on My Computer or Computer. Then highlight the local C drive by clicking on it once. Select the Properties button at the top left-hand corner of the window; this will display a window showing how much free and used space you have. If you need to recapture space: 
+•	Empty your recycle bin by right-clicking on the Recycle Bin icon (usually on the desktop), then selecting Empty Recycle Bin. 
+•	Check your mail files. Remove any large attachments and delete unused mail. 
+•	Images and videos take up a lot of space, so consider moving those to an external drive.
+•	Remove temporary files from the Internet. To do so: 
+-	Click Start button | My Computer or Computer. 
+-	Click Open Control Panel at the top of the window. 
+-	Click Network | Internet |Internet Options. 
+-	Select the General tab and click Delete under Browsing History. 
+-	Perform a disk cleanup. To do so: 
+-	Click Start button | My Computer or Computer. 
+-	Highlight the local C drive by clicking on it once. 
+-	Select the properties button at the top left of the window. 
+-	Go to the General tab and select Disk Cleanup. 
+-	Once the Disk Cleanup finishes running, click on Clean up System Files; this will delete any unnecessary system-related files from your local disk. 
+-	 Information in computer files changes often, resulting in gaps or spaces within the file. This takes up more space on the computer and can cause the computer to slow down. To reclaim these gaps in space, run disk defrag. To do so: 
+	Click start | My Computer or Computer. 
+	Highlight the local C drive by clicking on it once. 
+	Select the properties button at the top left of the window. 
+	Go to the Tools tab and select Run Defragmentation. 
+Old or unused programs that aren’t being used may still have components running behind the scenes when you start your computer, which can slow down the system. You can prevent these programs from running when you start your computer by removing unused shortcuts and turning off unused program services. 
+•	Remove unused shortcuts from Windows startup 
+•	Click Start button | Select All Programs | Click Startup 
+•	Right-click the shortcuts that you do not use and click delete 
+•	Disable unused program services 
+•	Click Start button | Control Panel | Administrative Tools | Services 
+•	For each program/service that you are certain that you do not need, click on the Service to highlight it, click the Stop link to stop the service from running, then double-click the service, choose Startup Type of Disabled, and click OK. 
+•	Run a virus scan to remove potential viruses that can slow down your computer. 
+
+
